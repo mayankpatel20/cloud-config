@@ -1,8 +1,8 @@
- spring:
-   datasource:
-     url: jdbc:mysql://localhost:3306/pragralms
-     username: admin
-     password: admin
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pragralms
+    username: admin
+    password: admin
 git:
   api:
     user: https://api.github.com/users/{login}
