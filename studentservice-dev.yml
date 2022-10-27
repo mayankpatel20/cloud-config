@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:studentdb
+    username: mk
+    password:
+  h2:
+    console:
+      path: /h2
+      enabled: ture
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
+git:
+  api:
+    user: https://api.github.com/users/{login}
